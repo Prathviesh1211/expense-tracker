@@ -5,29 +5,32 @@ It implements an Expense Tracker with dark mode, state management, and local sto
 
 ---
 
-## Purpose
 
-This project was created for **hands-on practice** to improve skills in:
-- **React with TypeScript**
-- **State management using Zustand**
-- **Dark mode implementation**
-- **Styling with Tailwind CSS**
-- **Managing form data and lists**
-- **Local Storage usage**
+## Features
+
+- **Add Expense** — Enter description, amount, category, payment method, and date.
+- **Edit Expense** — Update any expense entry.
+- **Delete Expense** — Remove unwanted expenses.
+- **Total Expense Display** — See your total spending in real-time.
+- **Dark Mode Support** — Switch between light and dark themes.
+- **Persistent Storage** — Data saved to local storage.
+
+---
+
+## 🛠 Tech Stack
+
+- **React** — UI Library  
+- **TypeScript** — Type safety and better developer experience  
+- **Zustand** — State management  
+- **Tailwind CSS** — Styling and responsive design  
+- **UUID** — Generate unique IDs for expenses  
+- **Local Storage** — Persistent data storage  
+- **Vite / Create React App** — Development environment  
 
 ---
 ## Screenshots 
 ![alt text](<Screenshot 2025-09-30 215614.png>)
 ![alt text](<Screenshot 2025-09-30 215712.png>)
----
-## Features
-
-- Add expense with description, amount, category, payment method, and date.
-- Edit expense entries.
-- Delete expenses.
-- View total expenses dynamically.
-- Toggle dark mode.
-- Store data in local storage to persist across reloads.
 
 ---
 ## Getting Started
